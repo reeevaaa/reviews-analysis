@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv("./processed_reviews.csv")
+        df = pd.read_csv("processing/processed_reviews.csv")
         return df
     except Exception as e:
         st.error(f"Error loading data: {e}")
