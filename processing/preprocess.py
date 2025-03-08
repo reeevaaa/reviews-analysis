@@ -36,7 +36,7 @@ def load_spacy_model():
 # Fix file paths
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_PATH = os.path.join(SCRIPT_DIR, "..", "raw_reviews.csv")
-OUTPUT_PATH = os.path.join(SCRIPT_DIR, "processed_reviews.csv")
+OUTPUT_PATH = os.path.join(SCRIPT_DIR, "./processed_reviews.csv")
 
 # Helper function for debug messages
 def print_debug(message):
